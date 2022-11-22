@@ -43,8 +43,8 @@ margin: 0;
 padding: 5px 30px;
 font-weight: bold;
 color:rgb(100, 78, 16);
-font-size: 1.6em;
-font-family: "roboto";
+font-size: 3em;
+font-family: 'Dancing Script', cursive;
 }
 
 header .container{
@@ -80,7 +80,7 @@ header a:hover{
     flex-direction: column;
     height: 90vh;
     color: white;
-    background-image: url("imagenes/logo.jpg");
+    background-image: url("Imagenes/logo.jpg");
     background-repeat: no-repeat;
 
 
@@ -104,7 +104,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/torta.jpg");
+    ,url("Imagenes/torta.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -163,7 +163,7 @@ text-align: center;
         rgba(0,0,0,0.2),
         rgba(0,0,0,0.2)
     )
-    ,url("imagenes/torta3.jpg");
+    ,url("Imagenes/torta3.jpg");
     }
 
 .carta:nth-child(2){
@@ -172,7 +172,7 @@ text-align: center;
         rgba(0,0,0,0.2),
         rgba(0,0,0,0.2)
     )
-    ,url("imagenes/torta4.jpg");
+    ,url("Imagenes/torta4.jpg");
     }
 .carta:nth-child(3){
     background-image: linear-gradient(
@@ -180,7 +180,7 @@ text-align: center;
         rgba(0,0,0,0.2),
         rgba(0,0,0,0.2)
     )
-    ,url("imagenes/torta7.jpg");
+    ,url("Imagenes/torta7.jpg");
     }
 
 #caracteristicas .container{
@@ -207,7 +207,7 @@ text-align: center;
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/torta2.jpg");
+    ,url("Imagenes/torta2.jpg");
     
     color: white;
     height: 80vh;
@@ -238,3 +238,15 @@ footer .container{
     align-items: flex-end;
 }
 
+@media (min-width: 768px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+
+}
